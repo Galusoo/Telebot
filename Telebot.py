@@ -6,7 +6,7 @@ from YFinance_API import fetch_stock_data
 from YFinance_API import Stocks
 from datetime import datetime
 
-api_token = "7794056797:AAFMrWmw6uhXT3YJTBBf5DfFQaJMw4JaAm8"
+api_token = "BOT_API_TOKEN"
 
 bot = telebot.TeleBot(api_token, parse_mode=None) #bot token
 
